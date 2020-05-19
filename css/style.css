@@ -1,0 +1,500 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "lato";
+    src: url("../fontovi/Lato-Regular.ttf");
+}
+@font-face{
+    font-family: "teko";
+    src: url("../fontovi/teko-bold.ttf");
+}
+.navbar img{
+    height: 100px;
+    width: auto;
+}
+.navbar{
+
+    font-family: "lato";
+}
+.dropdown-item {
+    font-family: "lato";
+}
+.navbar-collapse{
+    text-align: center;
+}
+.drzac{
+    height: 800px;
+    width: 100%;
+    background-image: url("../slike/kolaPozadina.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.crni{
+    height: 800px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.crni h1{
+    color: white;
+    font-family: "teko";
+    font-size: 55px;
+    margin-bottom: 0;
+
+}
+.crni h2{
+    color: white;
+    font-family: "teko";
+    font-size: 40px;
+
+}
+.naslovi{
+    padding-top:15%;
+}
+.crni p {
+    color: white;
+    margin-left: auto;
+    font-size: 20px;
+    display: block;
+    width: 70%;
+    padding-top: 20px;
+    font-family:"lato";
+}
+.crni button{
+    font-family: "lato";
+    border:2px solid white;
+    border-radius: 5px;
+    background-color:rgba(211, 211, 211, 0.2);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 70px;
+}
+@media screen and (max-width:800px){
+    .crni{
+        width: 100%;
+    }
+    .crni p {
+        margin-right: auto;
+    }
+    .crni h1{
+text-align: center;    }
+    .crni h2{
+        text-align: center;
+    }
+    .OnamaText p{
+        width: 100%;
+    }
+    .slika p {
+        margin-right: auto;
+    }
+    .slika h2{
+        text-align: center;
+    }
+
+}
+
+.oNama{
+    height: auto;
+}
+#levi{
+    height: 400px;
+    background-color: #343a42;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#desni{
+    height: 400px;
+    background-color: #2a3039;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#levi p {
+    color: white;
+    text-align: center;
+    font-family: "lato";
+    margin-top: 20px;
+}
+#levi h2 {
+    color: white;
+    text-align: center;
+    font-family: "teko";
+    padding-bottom: 20px;
+}
+#desni p {
+    color: white;
+    text-align: center;
+    font-family: "lato";
+    margin-top: 20px;
+}
+#desni h2 {
+    color: white;
+    text-align: center;
+    font-family: "teko";
+    margin-bottom: 20px;
+   
+}
+.linija{
+    height: 2px;
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+}
+.OnamaText{
+    height: auto;
+    clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+    background-color: white;
+    z-index: 9999;
+
+}
+.OnamaText h2{
+    color: white;
+    font-family: "teko";
+    text-align: center;
+    color: #2a3039;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.OnamaText .linija{
+    background-color: #2a3039;
+    width: 20%;
+}
+.OnamaText p {
+    font-family: "lato";
+    text-align: center;
+    font-size: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 130px;
+}
+.kontakt{
+    background-color: #2a3039;
+    height: auto;
+   margin-top: -300px;
+}
+.kontakt h2{
+color: white;
+text-align: center;
+font-family: "teko";
+padding-top: 330px;
+}
+#submit {
+	color: #fff;
+	display: block;
+}
+.col-md-6 img{
+    height: 50px;
+    width: auto;
+}
+.social {
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+#soc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.social p {
+    color: white;
+    font-family: "lato";
+    font-size: 25px;
+   padding-bottom: 30px;
+}
+.social a {
+    color: white;
+    font-family: "lato";
+    font-size: 25px;
+   padding-bottom: 30px;
+}
+.social p:last-child{
+    padding-bottom: 0;
+}
+footer {
+    
+    background-color: white;
+}
+footer p {
+    font-family: "lato";
+    color:#2a3039 ;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.contact-form h2{
+    padding: 20px;
+}
+.slika{
+    height: 700px;
+    width: 100%;
+    background-image: url("../slike/paperwork.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+.slika h2{
+color: #2a3039;
+font-family: "teko";
+font-size: 50px;
+padding-top: 10%;
+}
+.slika p 
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    display: block;
+    width: 70%;
+    padding-top: 20px;
+    font-family: "lato";
+    color: #2a3039;
+}
+.slicice{
+    background-color: #2a3039;
+    height: auto;
+    width: 100%;
+    margin-top: -300px;
+}
+
+.slicice img{
+   padding-top: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-md-4 p {
+    color:#fff;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    display: block;
+    width: 70%;
+    padding-top: 20px;
+    font-family: "lato";
+    text-align: center;
+}
+.slicice .row{
+    margin: 0;
+    padding-top: 330px;
+    padding-bottom: 30px;
+}
+@media screen and(max-width:765px){
+    .slicice img:last-child(){
+        padding-top: 20px;
+    }
+
+}
+@media screen and(max-width:320px){
+    html{
+        overflow-x:hidden;
+    }
+}
+.slicice h2{
+    color: white;
+    text-align: center;
+    font-family: "teko";
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.sadrzaj h2{
+    text-align: center;
+    font-family: "teko";
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: #2a3039;
+    padding-top: 20px;
+    margin: 0;
+}
+.sadrzaj ul{
+    text-align: center;
+    list-style-type:none ;
+    padding-bottom: 20px;
+}
+.sadrzaj li {
+    font-family: "lato";
+    font-size: 20px;
+    padding-top: 10px;
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+  .ugovori{
+    background-color: #2a3039;
+    
+}
+.ugovori p {
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ugovori {
+    margin: 0;
+    padding: 0;
+}
+.usluga{
+    height: 700px;
+    width: 100%;
+    background-image: url("../slike/usluga.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+@media screen and (max-width:966px){
+    .usluga{
+        background-image: url("../slike/uslugaResponsive.png");
+    }
+}
+.usluga h2{
+    font-family: "teko";
+    font-size: 50px;
+    color: #2a3039;
+    padding-top: 10%;
+}
+.uslugaMain{
+background-color: white;
+height: auto;
+width: 100%;
+
+}
+.uslugaMain h2{
+    padding-top: 40px;
+    color: #2a3039;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: "teko";
+    font-size: 40px;
+}
+.uslugaMain p{
+    font-family: "lato";
+    color: #2a3039;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#cekovi{
+    background-color: #343a42;
+
+}
+#promet{
+    background-color: #2a3039;
+}
+#cekovi h2{
+    color: white;
+    font-family: "teko";
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#cekovi h2{
+    color: white;
+    font-family: "teko";
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#promet h2{
+    color: white;
+    font-family: "teko";
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.DveUsluge .row{
+    margin: 0;
+    padding:0;
+}
+#cekovi p {
+
+    font-family: "lato";
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#cekovi ul {
+    text-align: center;
+    list-style-type: none;
+}
+#cekovi li{
+    color: #fff;
+    font-family: "lato";
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#promet p {
+    font-family: "lato";
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.kontakt p {
+    color: white;
+    padding-top: 10px;
+    font-family: "lato";
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.kontakt img{padding-top: 20px;
+height: 80px;}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url("../slike/331.gif") no-repeat center center;
+  }
+  
+  html{
+      animation: fadein 1s;
+  }
+  @keyframes fadein {
+      0%{opacity: 0;}
+      100%{opacity: 1;}
+  }
+  
